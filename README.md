@@ -63,7 +63,8 @@ This one takes a couple more steps, and is the way I went, so hopefully this hel
 6. Within the `Command Palette` give it a name, its recommended to have the same name as your `Github` repo.
 7. You will be asked to provide the URL of the repository within the `Command Palette`, you can obtain this by going to your Github page, opening your screeps repository click either clicking the `Clone or download` button to copy the URL, or simply copying the URL from your browser's address bar. paste this into the `Command Palette` and press enter.
 8. Before you can `push` this `commit` however, you will need to `pull` your already initialised repository and this will require allowing the unrelated histories (of the `Github` repository and your directory) to come together. Open your `Terminal` by going to `View > Terminal (Ctrl+,)`.
-9. First we will need to specify tracking information for your current `commit`, in the `Terminal` use the command `git branch --set-upstream-to=<name of your Github repository>/master master`, just replace `<name of your Github repository>` with the actual name you gave your repo.
+9. First we will need to specify tracking information for your current `commit`, in the `Terminal` use the command:
+ `git branch --set-upstream-to=<name of your Github repository>/master master`, just replace `<name of your Github repository>` with the actual name you gave your repo.
 10. Next we will pull the unrelated histories together using the command `git pull --allow-unrelated-histories`.
 11. Now we can `push` the `commit` by clicking the `...` button in `Source Control` and selecting `Push`.
 
